@@ -1,0 +1,267 @@
+body {
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/631/672/non_2x/cloud-computing-operating-system-concept-polygon-cloud-and-data-transmission-on-blue-background-wireless-file-upload-technology-download-secure-data-protection-system-business-and-technology-vector.jpg); 
+    font-family: Tahoma, Arial;
+    padding: 4px 0;
+    color: #ffffff;
+}
+
+.logoinicio{
+  width: 50px; 
+}
+
+.iniciar-sesion {
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a:hover {
+  color: rgba(248, 63, 140, 0.644);
+}
+
+.container-nav {
+  background-color: hsla(204, 100%, 50%, 0.445);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  height: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+
+li>a {
+  padding: 8px 24px;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+
+a {
+  color: #fff;
+  text-decoration:none;
+}
+
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+
+.button-menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .column {
+    flex: 100%;
+  }
+
+
+  .nav-links {
+    display: none;
+  }
+
+
+  .button-menu-toggle {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    padding: 0 20px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+    font-size: 25px;
+    color: hsl(199, 71%, 49%);
+  }
+ 
+  .nav-links.nav-links-responsive {
+    position: absolute;
+    display: flex;
+    background-color: rgba(24, 31, 43, 0.795);
+    width: 30%;
+    height: 20%;
+    top: 95px;
+    left: 69%;
+    flex-direction: column;
+    padding-top: 25px;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+
+
+  }
+}
+
+.titulo{
+    font-size: 100px;
+    color: #f818a2d8;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10%;
+}
+
+.titulos{
+    margin-left: 3px;
+    color: white;
+    margin-bottom: 2%;
+    border: solid;
+    border-radius: 5% 150px;
+    border-color: #f818a2d8;
+    background-color: hsla(210, 14%, 3%, 0.603);
+    padding-left: 20px;
+    margin-right: 130px;
+    
+}
+
+p {
+    text-align: center;
+}   
+.dia1{
+    text-align: center;
+    background-color: rgba(3, 198, 247, 0.39);
+    width: 400px;
+    height: 40px;
+    padding: 0%;
+    margin: 20px;
+}
+.dia2{
+    text-align: center;
+    background-color: rgba(3, 19, 247, 0.39);
+    width: 400px;
+    height: 40px;
+    padding: 0%;
+    margin: 20px;
+}
+.dia3{
+    text-align: center;
+    background-color: rgba(248, 63, 140, 0.644);
+    width: 400px;
+    height: 40px;
+    padding: 0%;
+    margin: 20px;
+}
+
+.dia4{
+  text-align: center;
+  background-color: rgba(3, 149, 247, 0.979);
+  width: 400px;
+  height: 40px;
+  padding: 0%;
+  margin: 20px;
+}
+
+.dia5 {
+  text-align: center;
+  background-color: dimgray;
+  width: 400px;
+  height: 40px;
+  padding: 0%;
+  margin: 20px;
+}
+
+.dia6{
+  text-align: center;
+  background-color: rgba(3, 198, 247, 0.39);
+  width: 400px;
+  height: 40px;
+  padding: 0%;
+  margin: 20px;
+}
+.dia7{
+  text-align: center;
+  background-color: rgba(3, 19, 247, 0.39);
+  width: 400px;
+  height: 40px;
+  padding: 0%;
+  margin: 20px;
+}
+
+.dia8{
+  text-align: center;
+  background-color: rgba(3, 149, 247, 0.39);
+  width: 400px;
+  height: 40px;
+  padding: 0%;
+  margin: 20px;
+}
+
+.dia9{
+  text-align: center;
+  background-color: rgba(239, 3, 247, 0.39);
+  width: 400px;
+  height: 40px;
+  padding: 0%;
+  margin: 20px;
+}
+
+.dia10{
+  text-align: center;
+  background-color: rgba(3, 170, 247, 0.219);
+  width: 400px;
+  height: 40px;
+  padding: 0%;
+  margin: 20px;
+}
+
+.dias{
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 2px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+.column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+
+
+.greeting {
+  text-align: center;
+}
+
+
+
+
+
+
+.pie-pagina {
+  margin-top: 30%;
+}
